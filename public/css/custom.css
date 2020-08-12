@@ -1,0 +1,30 @@
+.profile-headerdiv {
+    border-bottom: 1px solid #d1d7c9;
+    padding: 10px;
+}
+
+.profile-content {}
+
+.profile-sidebar {
+    border-right: 1px solid #d1d7c9;
+}
+
+.profile-section {
+    padding: 20px;
+}
+
+.green-hr {
+    border-top-color: #83b33b;
+}
+
+.btn-primary {
+    background-color: #83b33b;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #545454;
+    border: 1px solid black;
+}
