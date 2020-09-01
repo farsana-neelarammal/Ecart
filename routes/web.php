@@ -26,9 +26,18 @@ Route::view('/profile', 'customer/profile');
 
 // admin 
 Route::view('/admin-login', 'admin/admin-login');
-Route::view('/add-catagory', 'admin/add-catagory');
-Route::view('/add-subcatagory', 'admin/add-subcatagory');
-Route::view('/add-brand', 'admin/add-brand');
+Route::view('/department', 'admin/department');
+Route::view('/category', 'admin/category');
+Route::view('/subcategory', 'admin/subcategory');
+Route::view('/brand', 'admin/brand');
+Route::view('/deliverable-locations', 'admin/deliverable-locations');
+Route::view('/notifications', 'admin/notifications');
+
+Route::view('/seller-registration', 'admin/seller-registration');
+Route::view('/brand-approval', 'admin/brand-approval');
+Route::view('/category-approval', 'admin/category-approval');
+Route::view('/subcategory-approval', 'admin/subcategory-approval');
+Route::view('/messages', 'admin/messages');
 
 // seller
 Route::view('/seller-template', 'seller/seller-template');
@@ -38,3 +47,5 @@ Route::view('/product-search/add-multiple-products', 'seller/add-multiple-produc
 Route::view('/inventory', 'seller/inventory');
 Route::view('/seller-account-info', 'seller/seller-account-info');
 Route::view('/manage-orders', 'seller/manage-orders');
+
+
